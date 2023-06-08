@@ -2,7 +2,7 @@
 
 namespace App\Bootstrap\Actions\Fortify;
 
-use App\Models\User;
+use App\Bootstrap\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Laravel\Fortify\Contracts\ResetsUserPasswords;
