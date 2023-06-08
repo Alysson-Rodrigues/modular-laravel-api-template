@@ -2,7 +2,7 @@
 
 namespace App\Modules\Auth\Http\Controllers;
 
-use App\Bootstrap\Models\User;
+use App\Modules\Users\Models\User;
 use App\Bootstrap\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
