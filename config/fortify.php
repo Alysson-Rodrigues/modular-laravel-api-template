@@ -1,6 +1,6 @@
 <?php
 
-use App\Providers\RouteServiceProvider;
+use App\Bootstrap\Providers\RouteServiceProvider;
 use Laravel\Fortify\Features;
 
 return [
@@ -118,7 +118,7 @@ return [
     |
     */
 
-    'views' => true,
+    'views' => false,
 
     /*
     |--------------------------------------------------------------------------
